@@ -71,9 +71,32 @@ def next_greater_element(lst):
     return res
 
 
-if __name__ == "__main__":
-    exp = "921 * - 8 - 4 +"
-    print(evaluate_postfix(exp))
+def is_valid_parentheses(s: str) -> bool:
+    """
+    >>> is_valid_parentheses('()[]{}')
+    True
+    """
+    if not s or len(s) % 2 != 0:
+        return False
 
-    nge = next_greater_element([4, 6, 3, 2, 8, 1, 9, 9, 9])
-    print(nge)
+    stk = []
+    for bracket in s:
+        if bracket not in "({[)]}":
+            return False
+
+        if bracket in "({[":
+            stk.append(bracket)
+            continue
+
+        opening = stk.pop() if stk else None
+        if not opening:
+            return False
+
+        closing = bracket
+        if "([{".index(opening) != ")]}".index(closing):
+            return False
+
+    if stk:
+        return False
+    return True
+
