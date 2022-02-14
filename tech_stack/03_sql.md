@@ -42,22 +42,52 @@
 
 <details>
 <summary>Что такое селективность?</summary>
->
+
+> Создавая индексы с целью ускорения доступа к данным, нужно учитывать предполагаемую долю строк таблицы (селективность), выбираемых при выполнении типичных запросов, в которых создаваемый индекс будет использоваться.
+> 
+> Если эта доля велика (т. е. селективность — низкая), тогда наличие индекса может не дать ожидаемого эффекта.
+> 
+> Индексы более полезны, когда из таблицы выбирается лишь небольшая доля строк, т. е. при высокой селективности выборки.
 </details>
 
 <details>
 <summary>Приходилось ли вам профилировать запросы?</summary>
->
+
+> [Nooope](https://www.youtube.com/watch?v=mJXYMDu6dpY).
+
 </details>
 
 <details>
 <summary>Чем отличается explain от explain analyze?</summary>
->
+
+> explain in postgresql just estimates the cost of a query and explain analyze does the same and also executes a query and gives the actual results 
 </details>
 
 <details>
 <summary>В каком порядке вычисляется SELECT-запрос?</summary>
->
+
+>  https://docs.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15#logical-processing-order-of-the-select-statement
+> 
+> The following steps show the logical processing order, or binding order, for a SELECT statement. 
+> This order determines when the objects defined in one step are made available to the clauses in subsequent steps. 
+> For example, if the query processor can bind to (access) the tables or views defined in the FROM clause, these objects and their columns are made available to all subsequent steps. 
+> Conversely, because the SELECT clause is step 8, any column aliases or derived columns defined in that clause cannot be referenced by preceding clauses. However, they can be referenced by subsequent clauses such as the ORDER BY clause. 
+> Note that the actual physical execution of the statement is determined by the query processor and the order may vary from this list.
+> 
+> 1. FROM
+> 2. ON
+> 3. JOIN
+> 4. WHERE
+> 5. GROUP BY
+> 6. WITH CUBE or WITH ROLLUP
+> 7. HAVING
+> 8. SELECT
+> 9. DISTINCT
+> 10. ORDER BY
+> 11. TOP
+
+![s](https://i.stack.imgur.com/6YuwE.jpg)
+
 </details>
 
 <details>
@@ -77,10 +107,19 @@
 
 <details>
 <summary>Какие индексы вы знаете?</summary>
->
+
+> [Index Types](https://www.postgresql.org/docs/14/indexes-types.html)
+
 </details>
 
 <details>
 <summary>Что такое B-Tree?</summary>
->
+
+> — структура данных, дерево поиска. 
+> С точки зрения внешнего логического представления - сбалансированное, сильно ветвистое дерево.
+> 
+> Часто используется для хранения данных во внешней памяти.
+> 
+> Структура B-дерева применяется для организации индексов во многих современных СУБД.
+
 </details>
