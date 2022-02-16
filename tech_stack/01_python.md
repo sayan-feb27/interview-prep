@@ -2,6 +2,12 @@
 
 [Python Tips](https://book.pythontips.com/en/latest/index.html)
 
+[What Is the Python Global Interpreter Lock (GIL)?](https://realpython.com/python-gil/)
+
+[Memory Management in Python](https://realpython.com/python-memory-management/)
+
+[Concurrency, Parallelism, Threads, Processes, Async, and Sync — Related?](https://medium.com/swift-india/concurrency-parallelism-threads-processes-async-and-sync-related-39fd951bc61d)
+
 ## Общие вопросы
 
 <details>
@@ -244,18 +250,81 @@ Execution of Python bytecode requires acquiring the GIL. This approach prevents 
 </details>
 
 
- - Чем отличается поток от процесса?
+<details>
+
+<summary>Чем отличается поток от процесса?</summary>
+
+> Process is an instance of a program.
+> 
+> A thread is the smallest unit of execution in a process which simply executes instructions serially. 
+> A process can have multiple threads running as part of it. 
+> Usually, there would be some state associated with the process that is shared among all the threads and in turn each thread would have some state private to itself.
+> The globally shared state amongst the threads of a process is visible and accessible to all the threads, and special attention needs to be paid when any thread tries to read or write to this global shared state
+> 
+> Processes don't share any resources amongst themselves whereas threads of a process can share the resources allocated to that particular process, including memory address space.
+
+</details>
    
- - Расскажите про состояние гонки и потокобезопасность.
+<details>
+
+<summary>Расскажите про состояние гонки и потокобезопасность.</summary>
+
+> The primary motivation behind using multiple threads is improving program performance that may be measured with metrics such as throughput, responsiveness, latency, etc. Whenever threads are introduced in a program, the shared state amongst the threads becomes vulnerable to corruption. If a class or a program has immutable state then the class is necessarily thread-safe.
+> 
+> Race conditions happen when threads run through critical sections without thread synchronization. The threads "race" through the critical section to write or read shared resources and depending on the order in which threads finish the "race", the program output changes. In a race condition, threads access shared resources or program variables that might be worked on by other threads at the same time causing the application data to be inconsistent.
+> 
+> Deadlocks occur when two or more threads aren't able to make any progress because the resource required by the first thread is held by the second and the resource required by the second thread is held by the first.
+> 
+> Other than a deadlock, an application thread can also experience starvation when it never gets CPU time or access to shared resources. Other greedy threads continuously hog shared system resources not letting the starving thread make any progress.
+
+
+</details>
    
- - Какие механизмы синхронизации доступа к общим ресурсам вы знаете?
+<details>
+
+<summary>Какие механизмы синхронизации доступа к общим ресурсам вы знаете?</summary>
+
+> Mutex (monitor), Semaphore.
+
+</details>
    
- - Какие механизмы взаимодействия процессов вы знаете?
+<details>
+
+<summary>Какие механизмы взаимодействия процессов вы знаете?</summary>
+
+> [Межпроцессное взаимодействие](https://ru.wikipedia.org/wiki/Межпроцессное_взаимодействие)
+
+</details>
    
- - Что такое асинхронный ввод-вывод?
+<details>
+
+<summary>Что такое асинхронный ввод-вывод?</summary>
+
+> асинхронный ввод/вывод является формой неблокирующей обработки ввода/вывода, который позволяет процессу продолжить выполнение не дожидаясь окончания передачи данных. 
+> Входные и выходные операции на компьютере могут быть весьма медленными, по сравнению с обработкой данных.
+
+</details>
    
- - Что такое корутины? Как они работают?
+<details>
+
+<summary>Что такое корутины? Как они работают?</summary>
+
+>
+
+</details>
    
- - Для чего используется конструкция async/await в Python?
+<details>
+
+<summary>Для чего используется конструкция async/await в Python?</summary>
+
+>
+
+</details>
    
- - Как устроен EventLoop?
+<details>
+
+<summary>Как устроен EventLoop?</summary>
+
+>
+
+</details>
