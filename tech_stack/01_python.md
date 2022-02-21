@@ -8,6 +8,8 @@
 
 [Concurrency, Parallelism, Threads, Processes, Async, and Sync — Related?](https://medium.com/swift-india/concurrency-parallelism-threads-processes-async-and-sync-related-39fd951bc61d)
 
+[В Python — нет переменных. И как теперь жить? Python Memory Management на пальцах](https://www.youtube.com/watch?v=8GpI0PAGniA)
+
 ## Общие вопросы
 
 <details>
