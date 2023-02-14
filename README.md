@@ -6,6 +6,13 @@
 
 ### SQL
 
+[PostgreSQL Documentation](https://www.postgresql.org/docs/current/) to brush up basics.
+
+Practice:
+
+1. [sqlzoo.net](https://sqlzoo.net/wiki/SQL_Tutorial).
+2. [leetcode.com](https://leetcode.com/).
+3. [hackerrank.com](hackerrank.com).
 
 ### Algorithms & Data Structures
 
