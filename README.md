@@ -16,6 +16,8 @@ Practice:
 
 ### Algorithms & Data Structures
 
+[Leetcode Patterns](https://seanprashad.com/leetcode-patterns/)
+
 [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions) is all you need babe.
 
 [Blind 75 Questions](https://www.techinterviewhandbook.org/grind75?grouping=topics).
