@@ -1,5 +1,6 @@
 # interview-prep
 
+### Resume
 
 ### Python
 
@@ -26,3 +27,11 @@ Practice:
 
 
 ### System Design
+
+1. [Neetcode: System design for beginners](https://neetcode.io/courses/system-design-for-beginners/)
+2. [ByteByteGo: Ace Your Next System Design Interview](https://bytebytego.com/?fpr=techinterviewhandbook)
+3. [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview)
+
+### Behavioral interview
+
+
