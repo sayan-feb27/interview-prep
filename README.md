@@ -2,6 +2,8 @@
 
 ### Resume
 
+Consult someone experienced to help you write your resume.
+
 ### Python
 
 
