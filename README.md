@@ -1,6 +1,9 @@
 # interview-prep
 
-Notes based on my experience so far.
+Notes based on my limited experience so far.
+
+_To my future self_.
+
 
 ## General advice
 
