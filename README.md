@@ -63,6 +63,8 @@ I'd prefer to work with someone I like and respect than with someone toxic-ass g
 
 ### Companies and people I wouldn't work with
 
+### How to work on a legacy project
+
 ### How to approach work tasks and communication within team 
 
 ### Signs that your team lead is not good
