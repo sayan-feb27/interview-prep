@@ -13,6 +13,7 @@ Remember: do not take it personal, you are not your job.
 
 Next time you will get it, don't give up, Tarnished.
 
+
 ### Resume
 
 Consult someone experienced to help you write your resume.
@@ -63,9 +64,13 @@ I'd prefer to work with someone I like and respect than with someone toxic-ass g
 
 ### Companies and people I wouldn't work with
 
+### What to do made if you made an mistake or feeling like you're underperforming
+
 ### How to work on a legacy project
 
 ### How to approach work tasks and communication within team 
+
+### Signs that you're not a good teammate or you don't fit
 
 ### Signs that your team lead is not good
 
