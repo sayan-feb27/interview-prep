@@ -1,5 +1,15 @@
 # interview-prep
 
+Notes based on my experience so far.
+
+## General advice
+
+Interviewing is hard and being rejected over and over again could be discouraging and hurtful.
+
+Remember: do not take it personal, you are not your job.
+
+Next time you will get it, don't give up, Tarnished.
+
 ### Resume
 
 Consult someone experienced to help you write your resume.
@@ -19,16 +29,24 @@ Practice:
 
 ### Algorithms & Data Structures
 
-[Leetcode Patterns](https://seanprashad.com/leetcode-patterns/)
+Whether you like it or not leetcode-like interviews are industry standard.
 
-[Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions) is all you need babe.
+Use 'Easy' problems to warm-up, but don't waste too much on of a time on them.
+Focus on 'Medium' level problems as most interviews consist of them.
+If you have free time you can try to solve 'Hard' problems but they are rarely asked on real interviews.
 
-[Blind 75 Questions](https://www.techinterviewhandbook.org/grind75?grouping=topics).
+If get stuck on a problem more than 30-60 minutes, just look up a solution, learn it and move on.
+Do not waste time!
 
-[14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed).
+[Big O notation](https://neetcode.io/courses/lessons/big-o-notation)
 
+[NeetCode: Python for Coding Interviews](https://neetcode.io/problems/python-sort-ascending)
+
+[NeetCode 150](https://neetcode.io/practice)
 
 ### System Design
+
+If you are applying for a position with Senior or higher level requirement, chances are that you will be asked about System Design. 
 
 1. [Neetcode: System design for beginners](https://neetcode.io/courses/system-design-for-beginners/)
 2. [ByteByteGo: Ace Your Next System Design Interview](https://bytebytego.com/?fpr=techinterviewhandbook)
@@ -36,4 +54,15 @@ Practice:
 
 ### Behavioral interview
 
+In any job it's important to have solid 'hard' skills and know what you are doing,
+but remember that companies first and foremost are hiring people.
+I'd prefer to work with someone I like and respect than with someone toxic-ass genius with zero social skills.
+
+### Companies and people I wouldn't work with
+
+### How to approach work tasks and communication within team 
+
+### Signs that your team lead is not good
+
+### How do I know when it's time to leave?
 
