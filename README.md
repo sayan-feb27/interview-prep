@@ -9,10 +9,13 @@ _To my future self_.
 
 Interviewing is hard and being rejected over and over again could be discouraging and hurtful.
 
-Remember: do not take it personal, you are not your job.
+It's not like it happened to me alot but still. Probably not enough experiences in interviewing.
+
+Remember: do not take it personal, you are not your job. 
 
 Next time you will get it, don't give up, Tarnished.
 
+Consistency is the key.
 
 ### Resume
 
@@ -75,4 +78,6 @@ I'd prefer to work with someone I like and respect than with someone toxic-ass g
 ### Signs that your team lead is not good
 
 ### How do I know when it's time to leave?
+
+### Loalty to company or people?
 
